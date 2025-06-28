@@ -1,0 +1,56 @@
+body h2{
+    text-align: center;
+    color:red;
+    margin-top:50px;
+}
+#input{
+   position: relative;
+    width: 300px;
+    margin: 40px auto;
+    
+}
+#input i {
+    position: absolute;
+    top: 50%;
+    right:5px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+#searchinput{
+    width: 100%;
+    padding: 10px 5px 10px ;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:rgb(184, 223, 236);
+
+}
+#searchresults{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+  margin: 15px auto;
+  padding: 10px 15px;
+}
+.display {
+ display:flex;
+  align-items:center;
+  justify-content: space-between;
+    gap:10px;
+  }
+
+  .friend-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.btn{
+    background-color: #0095F6;
+    color: #ffff;
+    border-radius:6px;
+    border-color: none;
+}
